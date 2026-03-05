@@ -1,0 +1,54 @@
+
+/*Header Of The Entire Components*/
+.stuWrapper {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid white;
+}
+
+.stuHeadLeft {
+    display: flex;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.stuHeadRight {
+    display: flex;
+}
+
+.stuHeadRight .stuAddBtn {
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 15px;
+    margin-left: 100px;
+    width: 200px;
+    height: 60px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.stuHeadRight .stuAddBtn:hover {
+    transform: scale(1.08);
+}
+
+/*Header Of The Table Student*/
+
+.stuList {
+    margin-top: 30px;
+    margin-right: 280px;
+}
+
+.stuHeader {
+    display: flex;
+    list-style: none;
+    font-size: 25px;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+
